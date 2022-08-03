@@ -1,0 +1,105 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body {
+   background-color: rgb(211, 210, 210);
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: space-between;
+   justify-content: center;
+   padding: 50px;
+}
+
+.header {
+   padding-top: 12rem;
+   width: 60%;
+   position: relative;
+}
+h1 {
+   color: #1877f2;
+   font-weight: 700;
+   font-size: 60px;
+}
+.text {
+   color: black;
+   font-size: 20px;
+   font-weight: 400;
+}
+/* The form container*/
+.form-log {
+   background-color: white;
+   width: 350px;
+   height: 350px;
+   padding: 15px;
+   margin-top: 6rem;
+   position: relative;
+   text-align: center;
+   border-radius: 10px;
+   border: 1px solid white;
+   box-shadow: #3a3a3a46 5px 5px 20px;
+}
+/*Decorating the <input> element*/
+.box {
+   padding: 20px;
+   width: 300px;
+   border-radius: 5px;
+   border: 1px solid #1877f2;
+}
+border:active {
+   border: 1px solid #1877f2;
+}
+/*Decorating  the LOG IN button*/
+.log-in {
+   border: 1px solid #1877f2;
+   width: 300px;
+   padding: 15px;
+   font-size: 20px;
+   color: white;
+   cursor: pointer;
+   background-color: #1877f2;
+   border-radius: 5px;
+}
+/* for the CREATE NEW ACCOUNT button*/
+.create {
+   border: 1px solid hsl(138,88%,29%);
+   width: 200px;
+   padding: 15px;
+   font-size: 15px;
+   color: white;
+   cursor: pointer;
+   background-color: hsl(138,88%,29%);
+   border-radius: 10px;
+   font-weight: 700;
+}
+.para {
+   margin-top: 15px;
+}
+a {
+   text-decoration: none;
+   text-decoration-style: solid;
+}
+/* Ajusting width and heigth to fit more devices like mobile etc. */
+@media (max-width: 600px) {
+   body {
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+      width: 400px;
+      margin: 20px 30px 20px 60px;
+      
+   }
+   .header {
+      padding-top: 1rem;
+      margin-left: 3rem;
+        
+   }
+   
+   .form-log {
+      margin-top: 2rem;
+   }
+}
+/* coded and done by Genesis! */
+
